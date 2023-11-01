@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Drag and Drop</h2>
+        <p>Drag the image back and forth between the two div elements.</p>
+    <div id="div0">
+        
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="imgs/fiesp.png" draggable="true" ondragstart="drag(event)" id="drag1" width="100%" height="100%">
+        </div>
+
+        <div id="div2" ondrop="drop2(event)" ondragover="allowDrop2(event)"></div>
+        <p>Criado em 1946, o SESI atende indústrias e trabalhadores em gestão da Segurança e Saúde no Trabalho (SST) e na promoção da saúde e educação dos trabalhadores, seus dependentes e comunidade.</p>
+        
+        <div id="div3" ondrop="drop2(event)" ondragover="allowDrop2(event)">
+            <img src="imgs/senai.png" draggable="true" ondragstart="drag2(event)" id="drag2" width="100%" height="100%">
+        </div>
+
+        <div id="div4" ondrop="drop2(event)" ondragover="allowDrop2(event)"></div>
+        <p>Atua na administração, conciliação, mediação de arbitragens de conflitos empresariais para que diminua o número de processos abertos nos tribunais do Brasil.</p>
+
+        <div id="div5" ondrop="drop3(event)" ondragover="allowDrop3(event)">
+            <img src="imgs/sesi.png" draggable="true" ondragstart="drag3(event)" id="drag3" width="100%" height="100%">
+        </div>
+
+        <div id="div6" ondrop="drop3(event)" ondragover="allowDrop3(event)"></div>
+        <p>É o maior complexo privado de educação profissional da América Latina. Desde sua criação, em 1942, já formou mais de 73 milhões de trabalhadores em 28 áreas da indústria. Está presente em mais de 2 mil municípios brasileiros e oferece cursos em todos os níveis da educação profissional e tecnológica.</p>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+body{
+  font-size: larger;
+}
+#div1, #div2, #div3, #div4, #div5, #div6 {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+#div0{
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr;
+}
